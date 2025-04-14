@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PuzzleContestTest
+comment0.text=\r\n\ The\ test\ class\ PuzzleContestTest.\r\n\r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ accordingPSshouldSimulateStartingEnding()
+comment2.text=\r\n\ Test\r\n\r\n\ We\ define\ different\ tests\ to\ every\ method\ in\ Cycle\ 3\ about\ should\ and\ shouldn't\ do\r\n
+comment3.params=
+comment3.target=void\ accordingPSshouldSolveStartingEnding()
+numComments=4
