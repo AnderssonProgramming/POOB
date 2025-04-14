@@ -1,0 +1,7 @@
+test\TouristCellTest.class
+test\OriginalCellTest.class
+test\PoisonTest.class
+test\AManufacturingTest.class
+test\StickyWallTest.class
+test\ReflectiveCellTest.class
+test\ReflectiveCellInteractionTest.class

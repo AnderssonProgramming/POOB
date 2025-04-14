@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=AManufacturingTest
+comment0.text=\r\n\ Unit\ tests\ for\ the\ AManufacturing\ class.\r\n\r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ AManufacturing\ instance\ before\ each\ test.\r\n
+comment2.params=
+comment2.target=void\ testGetSize()
+comment2.text=\r\n\ Tests\ the\ getSize\ method\ to\ verify\ the\ size\ of\ the\ board.\r\n\ The\ expected\ size\ is\ 50.\r\n
+comment3.params=
+comment3.target=void\ testIsEmpty()
+comment3.text=\r\n\ Tests\ the\ isEmpty\ method\ to\ verify\ that\ it\ correctly\ identifies\ non-empty\ cells.\r\n\ The\ cell\ at\ position\ (0,\ 0)\ should\ not\ be\ empty\ at\ the\ beginning.\r\n
+comment4.params=
+comment4.target=void\ testNeighborsActive()
+comment4.text=\r\n\ Tests\ the\ neighborsActive\ method\ to\ verify\ the\ count\ of\ active\ neighboring\ cells.\r\n\ Verifies\ that\ the\ active\ cell\ at\ position\ (1,\ 1)\ has\ three\ active\ neighbors.\r\n
+comment5.params=
+comment5.target=void\ testTicTac()
+comment5.text=\r\n\ Tests\ the\ state\ change\ of\ cells\ after\ executing\ a\ tic-tac\ cycle.\r\n\ Verifies\ that\ the\ active\ cell\ at\ position\ (2,\ 2)\ remains\ active\ if\ it\ has\ no\ active\ neighbors.\r\n
+numComments=6

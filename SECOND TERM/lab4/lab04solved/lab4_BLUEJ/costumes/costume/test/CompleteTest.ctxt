@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CompleteTest
+comment1.params=
+comment1.target=void\ shouldCalculateTheCostOfACompleteCostume()
+comment2.params=
+comment2.target=void\ shouldCalculateTheCostOfACompleteCostumeWithDiscount()
+comment3.params=
+comment3.target=void\ shouldThrowExceptionIfCostumeHasNoBasicCustom()
+comment4.params=
+comment4.target=void\ shouldThrowExceptionIfThereIsErrorInPrice()
+comment5.params=
+comment5.target=void\ shouldThrowExceptionIfPriceIsNotKnown()
+numComments=6

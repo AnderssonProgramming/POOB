@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Tower
+comment1.params=disks\ colors\ xPosition\ yPosition
+comment1.target=Tower(int,\ java.awt.Color[],\ int,\ int)
+comment10.params=
+comment10.target=void\ pop()
+comment2.params=
+comment2.target=int\ getDisks()
+comment3.params=
+comment3.target=int\ getTopDiskSize()
+comment4.params=
+comment4.target=java.awt.Color\ getTopDiskColor()
+comment5.params=
+comment5.target=void\ makeVisible()
+comment6.params=
+comment6.target=void\ makeInvisible()
+comment7.params=x\ y
+comment7.target=void\ moveTo(int,\ int)
+comment8.params=newColor
+comment8.target=void\ changeColors(java.awt.Color)
+comment9.params=diskSize\ color
+comment9.target=void\ push(int,\ java.awt.Color)
+numComments=11

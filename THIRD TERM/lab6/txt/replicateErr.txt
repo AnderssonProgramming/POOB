@@ -1,0 +1,6 @@
+Cell 10 10
+TouristCell 20 A20  // Error en la coordenada, no es un número válido
+UnknownType 30 30  // Error en el tipo de elemento
+Poison  // Error, faltan las coordenadas
+ReflectiveCell 45  40 // Espacios extra entre los números
+Cell 5 5

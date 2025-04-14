@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Artefact
+comment0.text=\r\n\ Represents\ an\ abstract\ artefact\ in\ the\ manufacturing\ lattice.\r\n\ Artefacts\ have\ a\ state\ (UNKNOWN,\ ACTIVE,\ or\ INACTIVE)\ and\ can\ keep\ track\ of\ steps\ taken.\r\n\r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=
+comment1.target=Artefact()
+comment1.text=\r\n\ Creates\ a\ new\ Artefact\ with\ an\ initial\ state\ of\ UNKNOWN\ and\ step\ count\ set\ to\ zero.\r\n
+comment2.params=
+comment2.target=void\ step()
+comment2.text=\r\n\ Increments\ the\ step\ count\ of\ the\ Artefact\ by\ one.\r\n
+comment3.params=
+comment3.target=int\ getSteps()
+comment3.text=\r\n\ Returns\ the\ number\ of\ steps\ taken\ by\ the\ Artefact.\r\n\ @return\ The\ number\ of\ steps.\r\n
+comment4.params=
+comment4.target=boolean\ isActive()
+comment4.text=\r\n\ Checks\ if\ the\ Artefact\ is\ in\ an\ active\ state.\r\n\ @return\ {@code\ true}\ if\ the\ Artefact\ is\ ACTIVE,\ {@code\ false}\ otherwise.\r\n
+numComments=5

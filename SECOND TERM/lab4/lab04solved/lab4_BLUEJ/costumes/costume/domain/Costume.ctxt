@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Costume
+comment1.params=name\ discount
+comment1.target=Costume(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ name()
+comment2.text=\r\n\ Return\ the\ name\r\n\ @return\r\n
+comment3.params=
+comment3.target=int\ price()
+comment3.text=\r\n\ Return\ the\ price\ to\ pay\ for\ the\ costume\r\n\ @return\r\n\ @throws\ CostumeShopException,\ if\ the\ price\ is\ not\ available\ or\ has\ an\ error\r\n
+comment4.params=
+comment4.target=java.lang.String\ data()
+comment4.text=\r\n\ Return\ the\ representation\ as\ string\r\n\ @return\r\n\ @throws\ CostumeShopException,\ if\ the\ data\ is\ not\ complete\ (price\ or\ discount)\r\n
+numComments=5

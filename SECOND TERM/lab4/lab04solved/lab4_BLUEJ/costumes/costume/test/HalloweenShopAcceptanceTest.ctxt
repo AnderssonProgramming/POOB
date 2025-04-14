@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=HalloweenShopAcceptanceTest
+comment1.params=
+comment1.target=void\ acceptanceTestAddAndListCostumes()
+comment2.params=
+comment2.target=void\ testAddDuplicateCostume()
+comment3.params=
+comment3.target=void\ testNumericFields()
+comment4.params=
+comment4.target=void\ testNoBasicsComplete()
+comment4.text=\r\n\ \ \ \ @Test\r\n\ \ \ \ public\ void\ testInvalidDiscount()\ {\r\n\ \ \ \ \ \ \ \ HalloweenShop\ shop\ \=\ new\ HalloweenShop();\r\n\r\n\ \ \ \ \ \ \ \ //\ Attempt\ to\ add\ a\ costume\ with\ an\ invalid\ discount\ value\r\n\ \ \ \ \ \ \ \ HalloweenShopException\ exception\ \=\ assertThrows(HalloweenShopException.class,\ ()\ ->\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ shop.addBasic("Harry\ Wand",\ "1",\ "1000");\r\n\ \ \ \ \ \ \ \ });\r\n\r\n\ \ \ \ \ \ \ \ //\ Verify\ that\ the\ exception\ message\ matches\ the\ expected\ invalid\ discount\ message\r\n\ \ \ \ \ \ \ \ assertNotEquals(HalloweenShopException.INVALID_DISCOUNT,\ exception.getMessage());\r\n\ \ \ \ }\r\n
+numComments=5

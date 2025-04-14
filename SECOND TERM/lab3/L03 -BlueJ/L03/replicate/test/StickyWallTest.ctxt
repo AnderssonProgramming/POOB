@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=StickyWallTest
+comment0.text=\r\n\ Unit\ tests\ for\ the\ StickyWall\ class\ and\ its\ interactions\ with\ other\ cells\ in\ the\ manufacturing\ environment.\r\n\ These\ tests\ ensure\ that\ the\ StickyWall\ correctly\ prevents\ cells\ from\ occupying\ its\ space\ and\ causes\ adjacent\ cells\ to\ become\ stuck.\r\n\ \r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ manufacturing\ environment\ and\ the\ StickyWall\ instances\ before\ each\ test.\r\n
+comment2.params=
+comment2.target=void\ testReflectiveCellNotCreatedWhenOnStickyWall()
+comment2.text=\r\n\ Tests\ that\ a\ ReflectiveCell\ cannot\ be\ created\ on\ the\ same\ position\ as\ a\ StickyWall.\r\n\ Verifies\ that\ the\ StickyWall\ remains\ at\ its\ position.\r\n
+comment3.params=
+comment3.target=void\ testTouristCellStuckWhenCreatedAdjacentToStickyWall()
+comment3.text=\r\n\ Tests\ that\ a\ TouristCell\ becomes\ stuck\ when\ created\ adjacent\ to\ a\ StickyWall.\r\n\ Verifies\ that\ the\ TouristCell\ becomes\ stuck\ and\ cannot\ move\ after\ interaction.\r\n
+comment4.params=
+comment4.target=void\ testCellsStuckWhenAdjacentToStickyWalls()
+comment4.text=\r\n\ Tests\ that\ both\ TouristCell\ and\ ReflectiveCell\ become\ stuck\ when\ adjacent\ to\ a\ StickyWall.\r\n\ Verifies\ that\ both\ cells\ cannot\ move\ after\ interaction\ with\ the\ StickyWall.\r\n
+numComments=5

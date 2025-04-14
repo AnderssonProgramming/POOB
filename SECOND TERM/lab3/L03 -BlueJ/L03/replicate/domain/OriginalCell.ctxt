@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=OriginalCell
+comment0.text=\r\n\ Represents\ an\ original\ type\ of\ cell\ in\ the\ manufacturing\ lattice.\r\n\ This\ cell\ has\ specific\ behavior\ for\ deciding\ its\ next\ state\ based\ on\ the\ number\ of\ active\ neighbors.\r\n\r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=am\ row\ column\ active
+comment1.target=OriginalCell(AManufacturing,\ int,\ int,\ boolean)
+comment1.text=\r\n\ Creates\ a\ new\ original\ cell\ at\ the\ specified\ row\ and\ column\ in\ the\ given\ manufacturing\ lattice.\r\n\ Sets\ the\ color\ of\ the\ cell\ to\ gray.\r\n\ @param\ am\ The\ manufacturing\ lattice\ to\ which\ the\ cell\ belongs.\r\n\ @param\ row\ The\ row\ index\ of\ the\ cell.\r\n\ @param\ column\ The\ column\ index\ of\ the\ cell.\r\n\ @param\ active\ The\ initial\ state\ of\ the\ cell,\ active\ or\ inactive.\r\n
+comment2.params=
+comment2.target=void\ decide()
+comment2.text=\r\n\ Decides\ the\ next\ state\ of\ the\ cell\ based\ on\ the\ number\ of\ active\ neighbors.\r\n\ The\ cell\ becomes\ active\ if\ the\ number\ of\ active\ neighbors\ (including\ itself)\ is\ odd.\r\n
+comment3.params=
+comment3.target=int\ totalActiveNeighbors()
+comment3.text=\r\n\ Counts\ the\ total\ number\ of\ active\ neighboring\ cells,\ including\ the\ current\ cell.\r\n\ @return\ The\ total\ number\ of\ active\ neighboring\ cells.\r\n
+comment4.params=
+comment4.target=java.awt.Color\ getColor()
+comment4.text=\r\n\ Returns\ the\ color\ of\ the\ original\ cell,\ which\ is\ gray.\r\n\ @return\ The\ color\ of\ the\ cell.\r\n
+comment5.params=active
+comment5.target=void\ changeState(boolean)
+comment5.text=\r\n\ Changes\ the\ state\ of\ the\ cell\ to\ the\ specified\ state\ (active\ or\ inactive).\r\n\ @param\ active\ The\ new\ state\ of\ the\ cell.\r\n
+numComments=6

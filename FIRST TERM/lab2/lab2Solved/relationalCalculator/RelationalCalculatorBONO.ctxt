@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RelationalCalculatorBONO
+comment0.text=\r\n\ Clase\ de\ prueba\ para\ las\ funcionalidades\ adicionales\ (BONO)\ de\ la\ clase\ RelationalCalculator.\r\n\ Proporciona\ pruebas\ unitarias\ para\ verificar\ las\ operaciones\ de\ uni\u00F3n\ e\ intersecci\u00F3n\r\n\ de\ relaciones\ con\ atributos\ iguales\ y\ diferentes.\r\n\ \r\n\ Las\ pruebas\ incluyen\ casos\ con\ atributos\ coincidentes,\ atributos\ diferentes,\ y\ la\r\n\ inserci\u00F3n\ de\ tuplas\ en\ varias\ relaciones.\r\n\ \r\n\ @author\ Pedraza-S\u00E1nchez\r\n\ @version\ 2024\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Configuraci\u00F3n\ inicial\ para\ las\ pruebas.\r\n\ Se\ ejecuta\ antes\ de\ cada\ m\u00E9todo\ de\ prueba.\r\n\ Inicializa\ la\ calculadora\ y\ asigna\ dos\ relaciones\ con\ atributos\ coincidentes.\r\n
+comment2.params=
+comment2.target=void\ testUnion()
+comment2.text=\r\n\ Prueba\ para\ verificar\ la\ operaci\u00F3n\ de\ uni\u00F3n\ entre\ dos\ relaciones.\r\n\ Verifica\ que\ las\ tuplas\ de\ ambas\ relaciones\ se\ combinen\ correctamente\ y\ sin\ duplicados.\r\n
+comment3.params=
+comment3.target=void\ testIntersection()
+comment3.text=\r\n\ Prueba\ para\ verificar\ la\ operaci\u00F3n\ de\ intersecci\u00F3n\ entre\ dos\ relaciones.\r\n\ Solo\ deben\ permanecer\ las\ tuplas\ que\ est\u00E1n\ en\ ambas\ relaciones.\r\n
+comment4.params=
+comment4.target=void\ testUnionWithDifferentAttributes()
+comment4.text=\r\n\ Prueba\ para\ verificar\ que\ la\ operaci\u00F3n\ de\ uni\u00F3n\ falle\ cuando\ los\ atributos\ son\ diferentes.\r\n\ Intenta\ realizar\ la\ uni\u00F3n\ de\ dos\ relaciones\ con\ atributos\ no\ coincidentes.\r\n
+comment5.params=
+comment5.target=void\ testIntersectionWithDifferentAttributes()
+comment5.text=\r\n\ Prueba\ para\ verificar\ que\ la\ operaci\u00F3n\ de\ intersecci\u00F3n\ falle\ cuando\ los\ atributos\ son\ diferentes.\r\n\ Intenta\ realizar\ la\ intersecci\u00F3n\ de\ dos\ relaciones\ con\ atributos\ no\ coincidentes.\r\n
+numComments=6

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=BusquedaBinaria
+comment1.params=
+comment1.target=int[]\ arregloRandomOrdenado()
+comment1.text=\r\n\ Crea\ un\ arreglo\ aleatorio\ ordenado\ llamando\ a\ la\ funci\u00F2n\ arregloRandom\r\n\ @return\ arregloOrdenar\ Array\ ordenado\r\n
+comment2.params=
+comment2.target=int[]\ arregloRandom()
+comment2.text=\r\n\ Crea\ un\ Arreglo\ aleatorio\ desordenado\r\n\ @return\ arreglo\ Array\ con\ elementos\ aleatorios\ de\ forma\ desordenada\r\n
+comment3.params=arr\ izq\ der\ x
+comment3.target=int\ busquedaBinaria(int[],\ int,\ int,\ int)
+comment3.text=\r\n\ Busca\ un\ elemento\ en\ el\ arreglo\ dado\r\n\ @param\ arreglo\ ordenado\ en\ el\ cual\ se\ desea\ hacer\ la\ b\u00F9squeda\r\n\ @param\ izq\ indice\ izquierdo\r\n\ @param\ der\ indice\ derecho\r\n\ @param\ x\ numero\ a\ buscar\r\n\ @return\ res\ retorna\ la\ posicion\ si\ se\ encuentra\ el\ elemento,\ de\ lo\ contario\ retorna\ -1\r\n
+comment4.params=infLimit\ supLimit
+comment4.target=int\ selectRandInt(int,\ int)
+comment4.text=\r\n\ Calcula\ un\ numero\ aleatorio\ dado\ un\ intervalo\ cerrado\r\n\ @param\ infLimit\ menor\ valor\ del\ intervalo\r\n\ @param\ supLimit\ mayor\ valor\ del\ intervalo\r\n\ @return\ numeroRand\ el\ numero\ aleatorio\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ Funci\u00F2n\ principal\r\n
+numComments=6

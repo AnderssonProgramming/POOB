@@ -1,0 +1,4 @@
+NewCell 10 10 // Nuevo tipo de celda, se espera que la clase esté en el paquete domain
+OldCell 20 20 // Otro tipo no previamente soportado
+ReflectiveCell 30 X // Error en la coordenada, no es un número válido
+SpecialPoison 40 40 // Nuevo tipo de veneno

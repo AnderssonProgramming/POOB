@@ -1,0 +1,14 @@
+domain\Artefact.class
+domain\Poison.class
+presentation\AManufacturingGUI.class
+presentation\AManufacturingGUI$1.class
+domain\Cell.class
+domain\ReplicateException.class
+presentation\AManufacturingGUI$2.class
+domain\TouristCell.class
+domain\AManufacturing.class
+domain\StickyWall.class
+domain\ReflectiveCell.class
+domain\Thing.class
+presentation\PhotoAManufacturing.class
+domain\OriginalCell.class

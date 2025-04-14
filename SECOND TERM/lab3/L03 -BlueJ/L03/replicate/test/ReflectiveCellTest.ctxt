@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ReflectiveCellTest
+comment0.text=\r\n\ Unit\ tests\ for\ the\ ReflectiveCell\ class\ to\ ensure\ correct\ behavior,\ including\ movement,\ bouncing,\ and\ interaction\ with\ other\ objects.\r\n\ These\ tests\ verify\ the\ ReflectiveCell's\ ability\ to\ move\ to\ neighboring\ cells,\ bounce\ back\ when\ blocked,\ and\ change\ state\ when\ encountering\ poison.\r\n\ \r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ manufacturing\ environment\ and\ creates\ a\ ReflectiveCell\ before\ each\ test.\r\n
+comment2.params=
+comment2.target=void\ testRandomMovementAndBounce()
+comment2.text=\r\n\ Tests\ that\ the\ ReflectiveCell\ moves\ to\ a\ neighboring\ cell\ or\ bounces\ back\ when\ it\ reaches\ a\ boundary.\r\n\ Verifies\ that\ the\ movement\ is\ valid\ and\ the\ cell\ does\ not\ move\ outside\ the\ allowed\ range.\r\n
+comment3.params=
+comment3.target=void\ testInteractionWithPoison()
+comment3.text=\r\n\ Tests\ that\ the\ ReflectiveCell\ becomes\ inactive\ after\ encountering\ poison\ in\ any\ adjacent\ cell.\r\n\ Verifies\ that\ the\ ReflectiveCell\ changes\ its\ state\ and\ color\ appropriately\ when\ it\ encounters\ poison.\r\n
+numComments=4

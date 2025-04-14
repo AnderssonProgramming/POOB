@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ReflectiveCell
+comment0.text=\r\n\ The\ ReflectiveCell\ class\ represents\ a\ specialized\ type\ of\ cell\ within\ a\ manufacturing\ simulation\ environment.\r\n\ It\ extends\ the\ base\ Cell\ class\ and\ has\ the\ ability\ to\ move\ in\ a\ specific\ direction,\ changing\ direction\ when\ it\r\n\ encounters\ obstacles\ or\ the\ boundaries\ of\ the\ lattice.\r\n\r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=am\ row\ column\ active
+comment1.target=ReflectiveCell(AManufacturing,\ int,\ int,\ boolean)
+comment1.text=\r\n\ Constructs\ a\ ReflectiveCell\ with\ the\ given\ parameters.\r\n\r\n\ @param\ am\ \ \ \ \ \ The\ manufacturing\ environment\ in\ which\ this\ cell\ resides.\r\n\ @param\ row\ \ \ \ \ The\ initial\ row\ position\ of\ the\ cell.\r\n\ @param\ column\ \ The\ initial\ column\ position\ of\ the\ cell.\r\n\ @param\ active\ \ Whether\ the\ cell\ is\ initially\ active.\r\n
+comment2.params=
+comment2.target=void\ decide()
+comment2.text=\r\n\ Decides\ the\ next\ action\ for\ this\ cell\ based\ on\ its\ current\ direction\ and\ surroundings.\r\n\ Attempts\ to\ move\ the\ cell\ in\ the\ current\ direction\ or\ changes\ direction\ if\ movement\ is\ blocked.\r\n
+comment3.params=
+comment3.target=void\ change()
+comment3.text=\r\n\ Changes\ the\ state\ of\ the\ cell\ and\ updates\ its\ color\ accordingly.\r\n
+comment4.params=
+comment4.target=void\ updateColor()
+comment4.text=\r\n\ Updates\ the\ color\ of\ the\ cell\ based\ on\ its\ current\ state.\r\n\ Active\ cells\ are\ colored\ green,\ while\ inactive\ cells\ are\ colored\ gray.\r\n
+comment5.params=
+comment5.target=void\ reverseDirection()
+comment5.text=\r\n\ Reverses\ the\ direction\ of\ movement\ for\ the\ cell.\r\n
+numComments=6

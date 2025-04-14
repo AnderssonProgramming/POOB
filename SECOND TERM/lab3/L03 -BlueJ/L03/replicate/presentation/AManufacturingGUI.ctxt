@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=AManufacturingGUI
+comment0.text=\r\n\ Represents\ the\ graphical\ user\ interface\ for\ the\ AManufacturing\ system.\r\n\ The\ GUI\ allows\ users\ to\ visualize\ and\ control\ the\ simulation\ of\ the\ manufacturing\ lattice.\r\n\r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=
+comment1.target=AManufacturingGUI()
+comment1.text=\r\n\ Creates\ a\ new\ AManufacturingGUI\ window\ and\ initializes\ its\ components.\r\n
+comment2.params=
+comment2.target=void\ prepareElements()
+comment2.text=\r\n\ Prepares\ and\ sets\ up\ the\ GUI\ elements,\ including\ buttons\ and\ the\ main\ panel.\r\n
+comment3.params=
+comment3.target=void\ prepareActions()
+comment3.text=\r\n\ Prepares\ the\ actions\ for\ the\ GUI\ elements,\ including\ handling\ the\ tic-tac\ button\ click.\r\n
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=
+comment5.target=void\ ticTacButtonAction()
+comment5.text=\r\n\ Handles\ the\ tic-tac\ button\ action\ by\ performing\ a\ tic-tac\ cycle\ in\ the\ AManufacturing\ system\ and\ repainting\ the\ panel.\r\n
+comment6.params=
+comment6.target=domain.AManufacturing\ getaManufacturing()
+comment6.text=\r\n\ Returns\ the\ instance\ of\ AManufacturing\ associated\ with\ this\ GUI.\r\n\ @return\ The\ AManufacturing\ instance.\r\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\r\n\ The\ main\ entry\ point\ of\ the\ application.\r\n\ @param\ args\ Command-line\ arguments\ (not\ used).\r\n
+numComments=8

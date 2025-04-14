@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=HalloweenShopException
+comment0.text=\r\n\ Class\ HalloweenShopException\ .\r\n\r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=message
+comment1.target=HalloweenShopException(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ HalloweenShopException\r\n
+numComments=2

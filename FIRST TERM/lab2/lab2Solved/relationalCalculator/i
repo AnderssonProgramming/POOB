@@ -1,0 +1,6 @@
+javac -cp bin -sourcepath src src/aplicacion/*.java -d bin
+javac -cp bin -sourcepath src src/presentacion/*.java -d bin
+javac -cp junit-4.10.jar:bin -sourcepath src src/pruebas/*.java -d bin
+
+java -cp bin presentacion.RocolaInicio
+java -cp junit-4.10.jar:bin org.junit.runner.JUnitCore pruebas.RocolaTest

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PoisonTest
+comment0.text=\r\n\ Unit\ tests\ for\ the\ Poison\ class.\r\n\ \r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ Poison\ instance\ before\ each\ test.\r\n
+comment2.params=
+comment2.target=void\ testInitialColor()
+comment2.text=\r\n\ Tests\ the\ initial\ color\ of\ the\ Poison\ object.\r\n\ Verifies\ that\ the\ initial\ color\ is\ one\ of\ the\ rainbow\ colors.\r\n
+comment3.params=
+comment3.target=void\ testColorChangesInSequence()
+comment3.text=\r\n\ Tests\ the\ color\ changes\ of\ the\ Poison\ object\ in\ the\ rainbow\ sequence.\r\n\ Verifies\ that\ the\ color\ changes\ correctly\ through\ the\ rainbow\ sequence.\r\n
+comment4.params=
+comment4.target=void\ testShapeIsSquare()
+comment4.text=\r\n\ Tests\ the\ shape\ of\ the\ Poison\ object.\r\n\ Confirms\ that\ the\ poison\ object\ is\ always\ square-shaped.\r\n
+comment5.params=
+comment5.target=void\ testIsAlwaysActive()
+comment5.text=\r\n\ Tests\ that\ the\ Poison\ object\ is\ always\ active.\r\n\ Verifies\ that\ Poison\ remains\ active\ at\ all\ times.\r\n
+numComments=6

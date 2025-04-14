@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TouristCell
+comment0.text=\r\n\ Represents\ a\ tourist\ cell\ in\ the\ manufacturing\ lattice.\r\n\ The\ tourist\ cell\ moves\ towards\ the\ center\ of\ the\ lattice\ or\ the\ origin,\ depending\ on\ its\ state.\r\n\ \r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=am\ row\ column\ active
+comment1.target=TouristCell(AManufacturing,\ int,\ int,\ boolean)
+comment1.text=\r\n\ Creates\ a\ new\ tourist\ cell\ at\ the\ specified\ row\ and\ column\ in\ the\ given\ manufacturing\ lattice.\r\n\ Sets\ the\ initial\ color\ of\ the\ cell\ based\ on\ its\ active\ state.\r\n\ @param\ am\ The\ manufacturing\ lattice\ to\ which\ the\ cell\ belongs.\r\n\ @param\ row\ The\ row\ index\ of\ the\ cell.\r\n\ @param\ column\ The\ column\ index\ of\ the\ cell.\r\n\ @param\ active\ The\ initial\ state\ of\ the\ cell,\ active\ or\ inactive.\r\n
+comment2.params=
+comment2.target=void\ decide()
+comment2.text=\r\n\ Decides\ the\ next\ state\ and\ position\ of\ the\ tourist\ cell\ based\ on\ its\ current\ state\ and\ neighbors.\r\n\ If\ the\ cell\ is\ active,\ it\ attempts\ to\ move\ towards\ the\ center\ of\ the\ lattice.\r\n\ If\ the\ cell\ is\ inactive,\ it\ attempts\ to\ move\ towards\ the\ origin.\r\n\ The\ cell\ becomes\ inactive\ if\ it\ cannot\ move\ towards\ its\ target\ or\ if\ it\ encounters\ poison.\r\n
+comment3.params=
+comment3.target=void\ change()
+comment3.text=\r\n\ Changes\ the\ current\ state\ of\ the\ tourist\ cell\ and\ updates\ its\ color\ accordingly.\r\n
+comment4.params=
+comment4.target=void\ updateColor()
+comment4.text=\r\n\ Updates\ the\ color\ of\ the\ tourist\ cell\ based\ on\ its\ current\ state.\r\n\ Active\ cells\ are\ colored\ orange,\ while\ inactive\ cells\ are\ colored\ yellow.\r\n
+numComments=5

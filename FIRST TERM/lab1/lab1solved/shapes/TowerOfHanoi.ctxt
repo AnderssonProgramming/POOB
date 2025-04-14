@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=TowerOfHanoi
+comment1.params=numberOfDisks
+comment1.target=TowerOfHanoi(int)
+comment2.params=index
+comment2.target=Tower\ getTower(int)
+comment3.params=fromTower\ toTower
+comment3.target=void\ moveDisk(int,\ int)
+numComments=4

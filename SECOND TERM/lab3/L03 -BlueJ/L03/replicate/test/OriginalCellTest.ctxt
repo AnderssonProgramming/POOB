@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=OriginalCellTest
+comment0.text=\r\n\ Unit\ tests\ for\ the\ OriginalCell\ class.\r\n\ \r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ AManufacturing\ instance\ before\ each\ test.\r\n
+comment2.params=
+comment2.target=void\ testInitialSetup()
+comment2.text=\r\n\ Tests\ the\ initial\ setup\ of\ active\ cells\ in\ the\ AManufacturing\ lattice.\r\n\ Verifies\ that\ specific\ cells\ are\ active\ and\ others\ are\ inactive.\r\n
+comment3.params=
+comment3.target=void\ testSingleTicTac()
+comment3.text=\r\n\ Tests\ the\ state\ of\ the\ cells\ after\ a\ single\ tic-tac\ cycle.\r\n\ Verifies\ that\ one\ of\ the\ neighboring\ cells\ has\ changed\ its\ state.\r\n
+comment4.params=
+comment4.target=void\ testDoubleTicTac()
+comment4.text=\r\n\ Tests\ the\ state\ of\ the\ cells\ after\ two\ tic-tac\ cycles.\r\n\ Verifies\ that\ certain\ cells\ become\ inactive\ when\ the\ number\ of\ active\ neighbors\ is\ even.\r\n
+comment5.params=
+comment5.target=void\ testOuterBoundaryRemainsInactive()
+comment5.text=\r\n\ Tests\ that\ cells\ outside\ the\ initial\ sub-board\ remain\ inactive\ after\ multiple\ tic-tac\ cycles.\r\n\ Verifies\ that\ propagation\ does\ not\ affect\ cells\ outside\ the\ sub-board.\r\n
+numComments=6

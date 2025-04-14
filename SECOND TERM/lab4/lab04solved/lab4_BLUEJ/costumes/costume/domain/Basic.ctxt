@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Basic
+comment1.params=name\ price\ discount
+comment1.target=Basic(java.lang.String,\ java.lang.Integer,\ int)
+comment2.params=
+comment2.target=int\ price()
+comment3.params=
+comment3.target=java.lang.String\ data()
+numComments=4

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Thing
+comment0.text=\r\n\ Interface\ representing\ a\ generic\ Thing.\r\n\ This\ interface\ defines\ a\ set\ of\ properties\ and\ methods\ that\ each\ Thing\ must\ implement.\r\n\r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=
+comment1.target=void\ decide()
+comment1.text=\r\n\ Abstract\ method\ that\ needs\ to\ be\ implemented\ to\ define\ the\ behavior\ of\ the\ Thing.\r\n\ Each\ Thing\ should\ decide\ its\ behavior\ by\ implementing\ this\ method.\r\n
+comment2.params=
+comment2.target=void\ change()
+comment2.text=\r\n\ Method\ to\ perform\ a\ change\ in\ the\ Thing.\r\n\ This\ is\ a\ default\ implementation\ that\ can\ be\ overridden\ by\ classes\ implementing\ this\ interface.\r\n
+comment3.params=
+comment3.target=int\ shape()
+comment3.text=\r\n\ Method\ to\ get\ the\ shape\ of\ the\ Thing.\r\n\ By\ default,\ returns\ {@code\ SQUARE}.\r\n\ @return\ the\ shape\ of\ the\ Thing,\ either\ {@code\ ROUND}\ or\ {@code\ SQUARE}.\r\n
+comment4.params=
+comment4.target=java.awt.Color\ getColor()
+comment4.text=\r\n\ Method\ to\ get\ the\ color\ of\ the\ Thing.\r\n\ By\ default,\ returns\ {@code\ Color.red}.\r\n\ @return\ the\ color\ of\ the\ Thing.\r\n
+comment5.params=
+comment5.target=boolean\ isActive()
+comment5.text=\r\n\ Method\ to\ determine\ if\ the\ Thing\ is\ active.\r\n\ By\ default,\ returns\ {@code\ false}.\r\n\ @return\ {@code\ true}\ if\ the\ Thing\ is\ active,\ {@code\ false}\ otherwise.\r\n
+numComments=6

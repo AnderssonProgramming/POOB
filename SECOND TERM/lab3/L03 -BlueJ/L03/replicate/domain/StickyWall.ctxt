@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=StickyWall
+comment0.text=\r\n\ The\ StickyWall\ class\ represents\ an\ immovable\ barrier\ within\ the\ manufacturing\ simulation\ environment.\r\n\ It\ is\ a\ passive\ entity\ that\ prevents\ other\ cells\ from\ moving\ past\ it,\ effectively\ creating\ an\ obstacle\ in\ the\ lattice.\r\n\r\n\ @author\ Andersson\ David\ S\u00E1nchez\ M\u00E9ndez\r\n\ @author\ Cristian\ Santiago\ Pedraza\ Rodr\u00EDguez\r\n\ @version\ 2024\r\n
+comment1.params=am\ row
+comment1.target=StickyWall(AManufacturing,\ int)
+comment1.text=\r\n\ Constructs\ a\ StickyWall\ that\ spans\ the\ entire\ row\ of\ the\ manufacturing\ lattice.\r\n\r\n\ @param\ am\ \ The\ manufacturing\ environment\ where\ the\ wall\ is\ created.\r\n\ @param\ row\ The\ row\ where\ the\ StickyWall\ is\ placed.\r\n
+comment2.params=
+comment2.target=int\ getWallRow()
+comment2.text=\r\n\ Gets\ the\ row\ where\ the\ StickyWall\ is\ located.\r\n\r\n\ @return\ The\ row\ of\ the\ StickyWall.\r\n
+comment3.params=
+comment3.target=void\ decide()
+comment3.text=\r\n\ The\ StickyWall\ does\ not\ perform\ any\ action\ in\ its\ decide\ step.\r\n
+comment4.params=
+comment4.target=void\ change()
+comment4.text=\r\n\ The\ StickyWall\ does\ not\ change\ state.\r\n
+comment5.params=
+comment5.target=java.awt.Color\ getColor()
+comment5.text=\r\n\ Gets\ the\ color\ of\ the\ StickyWall.\r\n\r\n\ @return\ The\ color\ of\ the\ StickyWall.\r\n
+comment6.params=
+comment6.target=boolean\ isActive()
+comment6.text=\r\n\ Indicates\ that\ the\ StickyWall\ is\ always\ active.\r\n\r\n\ @return\ True,\ as\ the\ StickyWall\ is\ always\ active.\r\n
+comment7.params=
+comment7.target=int\ shape()
+comment7.text=\r\n\ Gets\ the\ shape\ representation\ of\ the\ StickyWall.\r\n\r\n\ @return\ The\ shape\ representation,\ which\ is\ a\ square.\r\n
+numComments=8

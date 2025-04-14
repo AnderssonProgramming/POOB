@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Autoplayer
+comment1.params=towerOfHanoi
+comment1.target=Autoplayer(TowerOfHanoi)
+comment2.params=
+comment2.target=void\ autoMoveDisk()
+comment3.params=
+comment3.target=void\ undoLastMove()
+comment4.params=from\ to
+comment4.target=boolean\ canMove(int,\ int)
+comment5.params=
+comment5.target=int\ findSmallestDiskTower()
+numComments=6

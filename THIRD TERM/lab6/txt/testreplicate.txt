@@ -1,0 +1,10 @@
+Poison 0 0
+Poison 0 49
+ReflectiveCell 5 7
+TouristCell 8 8
+Cell 10 10
+Cell 15 15
+TouristCell 23 23
+ReflectiveCell 25 22
+ReflectiveCell 27 33
+ReflectiveCell 42 47
